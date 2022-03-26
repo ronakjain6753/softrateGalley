@@ -1,0 +1,69 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+.slider{
+    margin-top: 10px;
+    margin-bottom: 30px;
+	position: relative;
+	width: 100%;
+	background: #2c3e50; /* darckblue */
+}
+.myslide{
+	height: 655px;
+	display: none;
+	overflow: hidden;
+}
+
+.prev, .next{
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	font-size: 50px;
+	padding: 15px;
+	cursor: pointer;
+	color: #fff;
+	transition: 0.1s;
+	user-select: none;
+}
+.prev:hover, .next:hover{
+	color: green;
+}
+.next{
+	right: 0;
+}
+
+/* javascript */
+.active, .dot:hover{
+	border-color: green; /* green */
+}
+/* /javascript */
+
+
+
+@media screen and (max-width: 800px){
+	.myslide{
+		height: 500px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
