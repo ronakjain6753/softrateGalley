@@ -17,10 +17,12 @@ body{
 
 .grid{
   display: grid;
-  width: 114em;
+  width: 90%;
+  max-width: 1170px;
   grid-gap:6rem;
   grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
   align-items: start;
+  margin-top: 30px;
 }
 
 .grid-item{
@@ -75,9 +77,6 @@ body{
 
 
 @media only screen and (max-width: 60em){
-  body{
-    padding: 3rem;
-  }
   .grid{
     grid-gap: 3rem;
   }
