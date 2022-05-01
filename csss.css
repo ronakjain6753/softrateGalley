@@ -43,12 +43,15 @@
 	font-size: 50px;
 	padding: 15px;
 	cursor: pointer;
+	background-color: rgba(255, 255, 255, .25); ;
+	display: flex;
 	color: #fff;
 	transition: 0.1s;
 	user-select: none;
 }
 .prev:hover, .next:hover{
-	color: green;
+		background-color: rgba(28,29,33, .75);
+		color: #EEEFF7;
 }
 .next{
 	right: 0;
