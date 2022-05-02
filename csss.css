@@ -44,14 +44,13 @@
 	padding: 15px;
 	cursor: pointer;
 	background-color: rgba(255, 255, 255, .25); ;
-	display: flex;
-	color: #fff;
+	color: #fff!important;
 	transition: 0.1s;
 	user-select: none;
 }
 .prev:hover, .next:hover{
 		background-color: rgba(28,29,33, .75);
-		color: #EEEFF7;
+		color: #EEEFF7!important;
 }
 .next{
 	right: 0;
