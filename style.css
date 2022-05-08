@@ -2370,7 +2370,7 @@ footer last{
   flex-direction: row;
 }
 footer h6,img{
-  
+  font-family: 'Montserrat';
   font-size: 16px;
   padding: 0px;
   margin: 0px;
