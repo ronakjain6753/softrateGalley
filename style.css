@@ -2238,17 +2238,20 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .footer-widgets ul {
+  font-family: 'Montserrat';
   padding: 0px 0 0;
   margin: 0;
   list-style: none;
 }
 
 .footer-widgets ul li {
+  font-family: 'Montserrat';
   margin-bottom: 8px;
   font-size: 14px;
 }
 
 .footer-widgets ul li a {
+  font-family: 'Montserrat';
   color: #1e2833;
   text-decoration: none;
 }
@@ -2268,6 +2271,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-contact ul li {
+  font-family: 'Montserrat';
   /* display: flex; */
   align-items: baseline;
   margin-bottom: 15px;
@@ -2282,6 +2286,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-contact ul li span {
+  font-family: 'Montserrat';
   width: calc(100% - 3px);
 }
 
@@ -2316,6 +2321,7 @@ footer a{
 
 
   .col-12.col-md-6.col-lg-3.mt-5.mt-md-0 {
+    font-family: 'Montserrat';
     margin-left: auto;
   }
 
@@ -2324,6 +2330,7 @@ footer a{
   }
 
   footer {
+    font-family: 'Montserrat';
     margin-top: 30px;
   }
 
