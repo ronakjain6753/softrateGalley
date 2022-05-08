@@ -2289,14 +2289,14 @@ ul.tabs-nav .tab-nav.active {
   width: 100%;
   height: 100%;
 }
-
+/* 
 footer h6{
   margin-top: 10px;
   font-size: 1em;
 }
 footer a{
   margin: auto;
-}
+} */
 
 @media (min-width: 994px) {
   .foot-logo img {
@@ -2304,6 +2304,7 @@ footer a{
     height: 100%;
     margin-left: -16%;
   }
+}
 
   .footer-bar {
     padding: 30px 0;
@@ -2312,6 +2313,7 @@ footer a{
     background: #131212;
     text-align: center;
   }
+
 
   .col-12.col-md-6.col-lg-3.mt-5.mt-md-0 {
     margin-left: auto;
@@ -2360,4 +2362,22 @@ footer a{
     cursor: pointer;
     outline: none;
   }
+
+  
+footer last{
+  
+  display: flex;
+  flex-direction: row;
+}
+footer h6,img{
+  
+  font-size: 15px;
+  padding: 0px;
+  margin: 0px;
+  color: gray;
+  margin-top: 10px;
+}
+
+footer a,img{  
+  margin: auto;
 }
