@@ -2268,7 +2268,7 @@ ul.tabs-nav .tab-nav.active {
 }
 
 .foot-contact ul li {
-  display: flex;
+  /* display: flex; */
   align-items: baseline;
   margin-bottom: 15px;
 }
@@ -2371,7 +2371,7 @@ footer last{
 }
 footer h6,img{
   
-  font-size: 15px;
+  font-size: 16px;
   padding: 0px;
   margin: 0px;
   color: gray;
